@@ -3,6 +3,7 @@
   "displayName": "TypoIME-VSCode",
   "description": "TypoIME for VSCode Extension",
   "version": "0.0.1",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.71.0"
   },
