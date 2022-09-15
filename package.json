@@ -11,14 +11,15 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:typoime-vscode.helloWorld"
+    "*",
+    "type"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "typoime-vscode.helloWorld",
-        "title": "Hello World"
+        "command": "typoime-vscode.toggleTypoIME",
+        "title": "TypoIME: Toggle TypoIME Mode"
       }
     ]
   },
