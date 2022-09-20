@@ -1,5 +1,6 @@
 import * as vscode from 'vscode'
 import { toTypoText } from './conversion'
+import { localize } from './localize'
 
 export function activate(context: vscode.ExtensionContext) {
   let enableTypoIME = false
@@ -7,7 +8,9 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.commands.registerCommand('typoime-vscode.toggleTypoIME', () => {
       enableTypoIME = !enableTypoIME
       vscode.window.showInformationMessage(
-        enableTypoIME ? 'TypoIME enabled' : 'TypoIME disabled'
+        enableTypoIME
+          ? localize('typoime-vscode.message.enable', 'TypoIME enabled')
+          : localize('typoime-vscode.message.disable', 'TypoIME disabled')
       )
     })
   )
