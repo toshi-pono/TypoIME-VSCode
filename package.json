@@ -16,6 +16,23 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "configuration": {
+      "title": "TypoIME-VSCode",
+      "properties": {
+        "typoime-vscode.conversionRatio": {
+          "type": "number",
+          "default": 50,
+          "description": "Percentage of conversion to typo characters",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "typoime-vscode.outputOnlyAlphabet": {
+          "type": "boolean",
+          "default": false,
+          "description": "After conversion, output only alphabetical characters"
+        }
+      }
+    },
     "commands": [
       {
         "command": "typoime-vscode.toggleTypoIME",
