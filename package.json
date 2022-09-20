@@ -2,13 +2,29 @@
   "name": "typoime-vscode",
   "displayName": "TypoIME-VSCode",
   "description": "TypoIME for VSCode Extension",
+  "icon": "images/icon.png",
   "version": "0.0.1",
   "license": "MIT",
+  "keywords": [
+    "typo",
+    "typoime"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toshi-pono/TypoIME-VSCode.git"
+  },
+  "homepage": "https://github.com/toshi-pono/TypoIME-VSCode",
+  "bugs": {
+    "url": "https://github.com/toshi-pono/TypoIME-VSCode/issues"
+  },
   "engines": {
     "vscode": "^1.71.0"
   },
   "categories": [
     "Other"
+  ],
+  "extensionKind": [
+    "ui"
   ],
   "activationEvents": [
     "*",
@@ -22,7 +38,7 @@
         "typoime-vscode.conversionRatio": {
           "type": "number",
           "default": 50,
-          "description": "Percentage of conversion to typo characters",
+          "description": "Percentage of conversion to typo characters (0-100)",
           "minimum": 0,
           "maximum": 100
         },
