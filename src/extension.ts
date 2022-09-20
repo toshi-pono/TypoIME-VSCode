@@ -2,7 +2,6 @@ import * as vscode from 'vscode'
 import { toTypoText } from './conversion'
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('"TypoIME-VSCode" is now active!')
   let enableTypoIME = false
   context.subscriptions.push(
     vscode.commands.registerCommand('typoime-vscode.toggleTypoIME', () => {
