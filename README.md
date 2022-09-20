@@ -42,10 +42,12 @@ Enable is a temporary state and will be automatically disabled when you exit VSC
 Nothing yet.
 -->
 
-<!--
+## Else
+- Contribution: [GitHub](https://github.com/toshi-pono/TypoIME-VSCode)
+- This extension is based on macOS IME [TypoIME for macOS](https://github.com/toshi-pono/TypoIME)
+
 ## Release Notes
 
-### 0.1.0
+### 1.0.0
 
 Initial release of TypoIME-VSCode
--->

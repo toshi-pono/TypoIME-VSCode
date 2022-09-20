@@ -42,10 +42,12 @@ TypoIME-VSCode は [Visual Studio Code](https://code.visualstudio.com/)用の"�
 Nothing yet.
 -->
 
-<!--
-## Release Notes
+## その他
+- Contribution: [GitHub](https://github.com/toshi-pono/TypoIME-VSCode)
+- この拡張機能はmacOS向けIME [TypoIME for macOS](https://github.com/toshi-pono/TypoIME) をもとに作成しました。
 
-### 0.1.0
+## リリースノート
+
+### 1.0.0
 
 Initial release of TypoIME-VSCode
--->
