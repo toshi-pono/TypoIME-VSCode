@@ -1,26 +1,17 @@
 # TypoIME-VSCode
 
 TypoIME-VSCode は [Visual Studio Code](https://code.visualstudio.com/)用の"文字入力支援ツール"です。
-入力した文字をランダムな文字にこっそり変換します。
-
-**※ ネタ拡張機能です!**
+入力した文字をランダムな文字にこっそり変換します。**※ ネタ拡張機能です!**
 
 [English](./README.md)
 
-<details>
-  <summary><strong>目次</strong> (クリックして開く)</summary>
-
-- [⭐ 機能](#-機能)
-- [💾 インストール](#-インストール)
-- [⚙️ 設定](#️-設定)
-  - [コマンド](#コマンド)
-  - [VSCode 設定](#VSCode-設定)
-
-</details>
-
 ## ⭐ 機能
 
-TODO
+![TypoIME-VSCode Sample](https://raw.githubusercontent.com/toshi-pono/TypoIME-VSCode/main/images/ja/sample.gif)
+
+- 入力した文字を形の似た文字に変換します
+  - 例：`Hello 12345` → `He11o Iz34s`
+- 拡張機能をコマンドから有効化したとき、一時的に有効になります。VSCodeを終了すると自動的に無効化されます
 
 ## 💾 インストール
 
@@ -28,7 +19,12 @@ TODO
 <TODO:拡張機能のインストール方法>
 
 ### 有効化方法
-コマンドパレットを開きます。`TypoIME: Toggle TypoIME Enable/Disable`を選択して有効化してください。
+1. コマンドパレットを開きます(Ctrl/Command + Shift + P)
+2. `TypoIME: Toggle TypoIME Enable/Disable`を選択して有効化してください
+ 
+有効化は一時的な状態で、VSCodeを終了すると自動的に無効化されます。
+
+![TypoIME-VSCode Sample](https://raw.githubusercontent.com/toshi-pono/TypoIME-VSCode/main/images/ja/command.png)
 
 ## ⚙️ 設定
 

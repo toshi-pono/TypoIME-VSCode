@@ -1,30 +1,30 @@
 # TypoIME-VSCode
 
 TypoIME-VSCode is a "text input support tool" for [Visual Studio Code](https://code.visualstudio.com/).
-Converts input characters to look-alike characters.
-
-**Caution: Just a joke!**
+Converts input characters to look-alike characters. **Caution: Just a joke!**
 
 [日本語](./README_ja.md)
 
-<details>
-  <summary><strong>Table of Contents</strong> (click to expand)</summary>
-
-- [⭐ Features](#-features)
-- [💾 Installation](#-installation)
-- [⚙️ Settings](#️-settings)
-  - [Commands](#commands)
-  - [VSCode settings](#vscode-settings)
-
-</details>
-
 ## ⭐ Features
 
-TODO
+![TypoIME-VSCode Sample](https://raw.githubusercontent.com/toshi-pono/TypoIME-VSCode/main/images/en/sample.gif)
+
+- Converts input characters into similar shaped characters
+  - Example: `Hello 12345` → `He11o Iz34s`
+- Temporarily enabled when the extension is enabled from a command; automatically disabled when VSCode is exited
 
 ## 💾 Installation
 
-TODO
+### Install extension
+<TODO:拡張機能のインストール方法>
+
+### Usage
+1. Open command palette (Ctrl/Command + Shift + P)
+2. select `TypoIME: Toggle TypoIME Enable/Disable` 
+
+Enable is a temporary state and will be automatically disabled when you exit VSCode.
+
+![TypoIME-VSCode Sample](https://raw.githubusercontent.com/toshi-pono/TypoIME-VSCode/main/images/en/command.png)
 
 ## ⚙️ Settings
 
