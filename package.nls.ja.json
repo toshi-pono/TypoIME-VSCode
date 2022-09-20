@@ -1,0 +1,5 @@
+{
+  "typoime-vscode.conversionRatio.description": "文字入力時、変換される文字の割合を指定します (0-100%)",
+  "typoime-vscode.outputOnlyAlphabet.description": "変換後にアルファベットのみを出力します",
+  "typoime-vscode.toggleTypoIME.title": "TypoIME: 拡張機能を 有効/無効 にします"
+}

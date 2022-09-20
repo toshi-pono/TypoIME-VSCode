@@ -17,6 +17,7 @@
   "bugs": {
     "url": "https://github.com/toshi-pono/TypoIME-VSCode/issues"
   },
+  "qna": "https://github.com/toshi-pono/TypoIME-VSCode/issues",
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -38,21 +39,21 @@
         "typoime-vscode.conversionRatio": {
           "type": "number",
           "default": 50,
-          "description": "Percentage of conversion to typo characters (0-100)",
+          "description": "%typoime-vscode.conversionRatio.description%",
           "minimum": 0,
           "maximum": 100
         },
         "typoime-vscode.outputOnlyAlphabet": {
           "type": "boolean",
           "default": false,
-          "description": "After conversion, output only alphabetical characters"
+          "description": "%typoime-vscode.outputOnlyAlphabet.description%"
         }
       }
     },
     "commands": [
       {
         "command": "typoime-vscode.toggleTypoIME",
-        "title": "TypoIME: Toggle TypoIME Mode"
+        "title": "%typoime-vscode.toggleTypoIME.title%"
       }
     ]
   },

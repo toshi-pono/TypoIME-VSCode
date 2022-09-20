@@ -1,0 +1,5 @@
+{
+  "typoime-vscode.conversionRatio.description": "Percentage of conversion to typo characters (0-100%)",
+  "typoime-vscode.outputOnlyAlphabet.description": "After conversion, output only alphabetical characters",
+  "typoime-vscode.toggleTypoIME.title": "TypoIME: Toggle TypoIME Enable/Disable"
+}

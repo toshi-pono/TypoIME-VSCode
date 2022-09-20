@@ -10,7 +10,7 @@ Converts input characters to look-alike characters.
 <details>
   <summary><strong>Table of Contents</strong> (click to expand)</summary>
 
-- [Features](#-features)
+- [⭐ Features](#-features)
 - [💾 Installation](#-installation)
 - [⚙️ Settings](#️-settings)
   - [Commands](#commands)
