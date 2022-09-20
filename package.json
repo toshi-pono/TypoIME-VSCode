@@ -28,8 +28,7 @@
     "ui"
   ],
   "activationEvents": [
-    "*",
-    "type"
+    "onCommand:typoime-vscode.toggleTypoIME"
   ],
   "main": "./out/extension.js",
   "contributes": {
