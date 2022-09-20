@@ -3,7 +3,7 @@
   "displayName": "TypoIME-VSCode",
   "description": "TypoIME for VSCode Extension",
   "icon": "images/icon.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "publisher": "toshi00",
   "keywords": [
