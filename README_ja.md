@@ -17,7 +17,7 @@ TypoIME-VSCode は [Visual Studio Code](https://code.visualstudio.com/)用の"�
 ## 💾 インストール
 
 ### 拡張機能のインストール
-<TODO:拡張機能のインストール方法>
+[VSCode Marketplace](https://marketplace.visualstudio.com/items/toshi00.typoime-vscode)からインストールできます。
 
 ### 有効化方法
 1. コマンドパレットを開きます(Ctrl/Command + Shift + P)

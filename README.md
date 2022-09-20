@@ -17,7 +17,7 @@ Converts input characters to look-alike characters.
 ## 💾 Installation
 
 ### Install extension
-<TODO:拡張機能のインストール方法>
+Install it from [VSCode Marketplace](https://marketplace.visualstudio.com/items/toshi00.typoime-vscode).
 
 ### Usage
 1. Open command palette (Ctrl/Command + Shift + P)
