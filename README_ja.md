@@ -1,7 +1,8 @@
 # TypoIME-VSCode
 
 TypoIME-VSCode は [Visual Studio Code](https://code.visualstudio.com/)用の"文字入力支援ツール"です。
-入力した文字をランダムな文字にこっそり変換します。**※ ネタ拡張機能です!**
+入力した文字をランダムな文字にこっそり変換します。  
+**※ ネタ拡張機能です!**
 
 [English](./README.md)
 

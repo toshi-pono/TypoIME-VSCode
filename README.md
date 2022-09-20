@@ -1,7 +1,8 @@
 # TypoIME-VSCode
 
 TypoIME-VSCode is a "text input support tool" for [Visual Studio Code](https://code.visualstudio.com/).
-Converts input characters to look-alike characters. **Caution: Just a joke!**
+Converts input characters to look-alike characters.   
+**Caution: Just a joke!**
 
 [日本語](./README_ja.md)
 
